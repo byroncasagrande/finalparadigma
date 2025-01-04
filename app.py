@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import cargaarchivo as ca
 import generatestatistics as ge
-import generatecsv as gc
 from generateregression import realizar_regresion
 from generatereport import generar_reporte
 
