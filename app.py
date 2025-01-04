@@ -25,6 +25,7 @@ if modulo == "Herramienta de Análisis de Datos":
 
     # Si se realiza la carga del archivo se continúa
     if df is not None:
+        ge.generateStatistics(df)
         st.subheader("Modelado de Regresión")
 
         # Filtrar columnas numéricas
